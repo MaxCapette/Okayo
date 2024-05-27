@@ -20,7 +20,7 @@ export default function Component() {
     <>
       <header className="flex justify-between px-6 py-4 bg-gray-900 text-white dark:bg-gray-800">
         
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center logo">
         <Link className="flex items-center gap-2" href="#">
           <DatabaseIcon className="h-8 w-8" />
           <span className="text-xl font-bold">Okayo import</span>

@@ -35,3 +35,7 @@ body {
   .topo {
     padding-top: 150px !important;
   }
+
+  .logo {
+    margin-bottom: 0;
+  }
