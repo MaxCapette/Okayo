@@ -68,8 +68,9 @@ export default function Component() {
                   d&apos;archivage garantissent la sécurité et l&apos;accessibilité de vos données.
                 </p>
                 <div className="flex space-x-4">
-                 
+                <Link href="#contact">
                   <Button variant="outline">Contactez-nous</Button>
+                  </Link>
                 </div>
               </div>
               <div>
