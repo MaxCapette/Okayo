@@ -31,3 +31,7 @@ body {
   .burger { 
     color: black;
   }
+
+  .topo {
+    padding-top: 150px !important;
+  }
