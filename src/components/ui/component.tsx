@@ -24,13 +24,13 @@ export default function Component() {
           <span className="text-xl font-bold">Okayo import</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
             Solutions
           </Link>
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
             À propos
           </Link>
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
             Contact
           </Link>
         </nav>
@@ -42,13 +42,13 @@ export default function Component() {
           </SheetTrigger>
           <SheetContent className="p-6 bg-gray-900 text-white dark:bg-gray-800" side="right">
             <div className="flex flex-col space-y-4">
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
                 Solutions
               </Link>
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
                 À propos
               </Link>
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
                 Contact
               </Link>
             </div>
@@ -56,7 +56,7 @@ export default function Component() {
         </Sheet>
       </header>
     
-      <section className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
+      <section  className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -88,7 +88,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="py-12 md:py-20 dark:bg-gray-800">
+        <section id="solutions" className="py-12 md:py-20 dark:bg-gray-800">
           <div className="container mx-auto px-4 md:px-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900 dark:text-gray-50">Nos solutions</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -128,7 +128,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
+        <section id="about" className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -158,12 +158,12 @@ export default function Component() {
                     besoins uniques et leur fournir des solutions sur mesure. Nous nous engageons à offrir des services
                     fiables et rentables qui aident nos clients à se concentrer sur leur activité principale.
                 </p>
-                <Button variant="link">En savoir plus</Button>
+               
               </div>
             </div>
           </div>
         </section>
-        <section className="py-12 md:py-20 dark:bg-gray-800">
+        <section id="contact" className="py-12 md:py-20 dark:bg-gray-800">
        
           
              <Contact />
@@ -178,13 +178,13 @@ export default function Component() {
             <span className="text-lg font-bold">Okayo import</span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
               Solutions
             </Link>
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
               À propos
             </Link>
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
               Contact
             </Link>
           </nav>
