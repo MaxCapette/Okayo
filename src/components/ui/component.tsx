@@ -19,9 +19,12 @@ export default function Component() {
   return (
     <>
       <header className="flex justify-between px-6 py-4 bg-gray-900 text-white dark:bg-gray-800">
+        
         <div className="flex items-center space-x-4">
+        <Link className="flex items-center gap-2" href="#">
           <DatabaseIcon className="h-8 w-8" />
           <span className="text-xl font-bold">Okayo import</span>
+          </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">

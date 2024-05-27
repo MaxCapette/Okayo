@@ -7,8 +7,22 @@ body {
   }
 
   header {
-    width: 100%;
-  }
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    position: fixed;
+    top: 7%;
+    /* Position à 50% du haut */
+    left: 50%;
+    /* Position à 50% de la gauche */
+    transform: translate(-50%, -50%);
+    /* @media screen and (min-width: 1155px) {
+        background-color: var(--bg-0);
+    } */
+    background-color: var(--bg-0);
+    opacity: 0.9;
+    z-index: 1;
+}
 
   footer {
     width: 100%;
