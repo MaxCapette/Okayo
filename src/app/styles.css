@@ -1,0 +1,19 @@
+body {
+    font-family: var(--font-rubik), sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-libre_franklin), sans-serif;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+  
+  .burger { 
+    color: black;
+  }
