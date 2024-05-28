@@ -195,6 +195,18 @@ export default function Component() {
           <p className="text-sm text-gray-500 dark:text-gray-400">
             © 2024 Okayo import. Tous droits réservés.
           </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+          8 BOULEVARD ROY
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+          93320 LES PAVILLONS-SOUS-BOIS 
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+          contact@okayo-import.fr
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+          01 84 21 09 79
+          </p>
         </div>
       </footer>
     </>
