@@ -6,13 +6,13 @@ import { Rubik } from 'next/font/google'
 import './styles.css'
 import './globals.css'
 import Head from "next/head";
-
+import { ReactNode } from 'react';
 const libre_franklin = Libre_Franklin({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-libre_franklin',
 })
-import { ReactNode } from 'react';
+
 
 const rubik = Rubik({
   subsets: ['latin'],
