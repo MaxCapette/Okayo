@@ -1,15 +1,10 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/IpFR5diuTVt
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+/* eslint-disable @next/next/no-img-element */
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
+import { SheetTrigger, SheetContent, Sheet, SheetClose } from "@/components/ui/sheet"
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+
 import Contact from "@/components/ui/contact/contact"
 import Image from "next/image"
 
@@ -45,15 +40,18 @@ export default function Component() {
           </SheetTrigger>
           <SheetContent className="p-6 bg-gray-900 text-white dark:bg-gray-800" side="right">
             <div className="flex flex-col space-y-4">
+            <SheetClose asChild>
               <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
                 Solutions
-              </Link>
+              </Link></SheetClose>
+              <SheetClose asChild>
               <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
                 À propos
-              </Link>
+              </Link></SheetClose>
+              <SheetClose asChild>
               <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
                 Contact
-              </Link>
+              </Link></SheetClose>
             </div>
           </SheetContent>
         </Sheet>
@@ -77,7 +75,7 @@ export default function Component() {
                 </div>
               </div>
               <div>
-                <Image
+                <img
                   alt="Solutions de stockage"
                   className="rounded-lg"
                   height={400}
@@ -136,7 +134,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <Image
+                <img
                   alt="À propos de Solutions de stockage"
                   className="rounded-lg"
                   height={400}
