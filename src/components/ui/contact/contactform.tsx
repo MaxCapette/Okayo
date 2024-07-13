@@ -11,11 +11,11 @@ const FormContact: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="email"> Adresse Email</label>
+      <label htmlFor="email" className='text-black'> Adresse Email</label>
       <input id="email" type="email" name="email" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-      <label htmlFor="message">Message</label>
+      <label htmlFor="message" className='text-black'>Message</label>
       <textarea id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 

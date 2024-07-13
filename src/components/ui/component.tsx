@@ -13,7 +13,7 @@ import Image from "next/image"
 export default function Component() {
   return (
     <>
-      <header className="flex justify-between px-6 py-4 bg-gray-900 text-white dark:bg-gray-800">
+      <header className="flex justify-between px-6 py-4 bg-gray-900 text-white ">
         
         <div className="flex items-center logo">
         <Link className="flex items-center gap-2" href="#">
@@ -22,13 +22,13 @@ export default function Component() {
           </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
+          <Link className="hover:text-gray-300 " href="#solutions">
             Solutions
           </Link>
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
+          <Link className="hover:text-gray-300 " href="#about">
             À propos
           </Link>
-          <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
+          <Link className="hover:text-gray-300 " href="#contact">
             Contact
           </Link>
         </nav>
@@ -38,18 +38,18 @@ export default function Component() {
               <MenuIcon className="h-6 w-6" />
             </Button>
           </SheetTrigger>
-          <SheetContent className="p-6 bg-gray-900 text-white dark:bg-gray-800" side="right">
+          <SheetContent className="p-6 bg-gray-900 text-white " side="right">
             <div className="flex flex-col space-y-4">
             <SheetClose asChild>
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
+              <Link className="hover:text-gray-300 " href="#solutions">
                 Solutions
               </Link></SheetClose>
               <SheetClose asChild>
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
+              <Link className="hover:text-gray-300 " href="#about">
                 À propos
               </Link></SheetClose>
               <SheetClose asChild>
-              <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
+              <Link className="hover:text-gray-300 " href="#contact">
                 Contact
               </Link></SheetClose>
             </div>
@@ -57,14 +57,14 @@ export default function Component() {
         </Sheet>
       </header>
     
-      <section  className="bg-gray-100 dark:bg-gray-800  topo">
+      <section  className="bg-gray-100   topo container">
           <div className="container mx-auto px-4 md:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-gray-50">
+                <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 ">
                   Solutions de stockage fiables
                 </h1>
-                <p className="text-gray-600 dark:text-gray-400 mb-6">
+                <p className="text-gray-600  mb-6">
                   Approuvées par des entreprises de toutes tailles, nos solutions de stockage, de sauvegarde et
                   d&apos;archivage garantissent la sécurité et l&apos;accessibilité de vos données.
                 </p>
@@ -90,39 +90,39 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section id="solutions" className="py-12 md:py-20 dark:bg-gray-800">
+        <section id="solutions" className="py-12 md:py-20 ">
           <div className="container mx-auto px-4 md:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900 dark:text-gray-50">Nos solutions</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900 ">Nos solutions</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Card className="bg-white dark:bg-gray-700 dark:text-gray-50">
+              <Card className="bg-white ">
                 <CardHeader>
                   <DatabaseIcon className="h-8 w-8 text-primary" />
                   <h3 className="text-xl font-bold">Stockage de données</h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Solutions de stockage de données sécurisées et évolutives pour votre entreprise.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="bg-white dark:bg-gray-700 dark:text-gray-50">
+              <Card className="bg-white ">
                 <CardHeader>
                   <DatabaseBackupIcon className="h-8 w-8 text-primary" />
                   <h3 className="text-xl font-bold">Sauvegarde de données</h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Solutions de sauvegarde fiables et automatisées pour protéger vos données.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="bg-white dark:bg-gray-700 dark:text-gray-50">
+              <Card className="bg-white ">
                 <CardHeader>
                   <ArchiveIcon className="h-8 w-8 text-primary" />
                   <h3 className="text-xl font-bold">Archivage de données</h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Archivage de données à long terme pour les besoins de conformité et de réglementation.
                   </p>
                 </CardContent>
@@ -130,7 +130,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section id="about" className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
+        <section id="about" className="bg-gray-100  py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -147,15 +147,15 @@ export default function Component() {
                 />
               </div>
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-50">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900 ">
                   À propos de Okayo import
                 </h2>
-                <p className="text-gray-600 dark:text-gray-400 mb-6">
+                <p className="text-gray-600  mb-6">
                 Okayo import est un fournisseur leader de solutions de stockage, de sauvegarde et d&apos;archivage
                     de données. Avec plus de 15 ans d&apos;expérience, nous avons aidé des entreprises de toutes tailles à
                     sécuriser et à gérer leurs données critiques.
                 </p>
-                <p className="text-gray-600 dark:text-gray-400 mb-6">
+                <p className="text-gray-600  mb-6">
                     Notre équipe d&apos;experts travaille en étroite collaboration avec nos clients pour comprendre leurs
                     besoins uniques et leur fournir des solutions sur mesure. Nous nous engageons à offrir des services
                     fiables et rentables qui aident nos clients à se concentrer sur leur activité principale.
@@ -165,7 +165,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section id="contact" className="py-12 md:py-20 dark:bg-gray-800">
+        <section id="contact" className="py-12 md:py-20 ">
        
           
              <Contact />
@@ -173,36 +173,36 @@ export default function Component() {
         
         </section>
      
-      <footer className="bg-gray-900 dark:bg-gray-800 text-white py-6">
+      <footer className="bg-gray-900  text-white py-6">
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <DatabaseIcon className="h-6 w-6" />
             <span className="text-lg font-bold">Okayo import</span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#solutions">
+            <Link className="hover:text-gray-300 " href="#solutions">
               Solutions
             </Link>
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#about">
+            <Link className="hover:text-gray-300 " href="#about">
               À propos
             </Link>
-            <Link className="hover:text-gray-300 dark:hover:text-gray-400" href="#contact">
+            <Link className="hover:text-gray-300 " href="#contact">
               Contact
             </Link>
           </nav>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 ">
             © 2024 Okayo import. Tous droits réservés.
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 ">
           8 BOULEVARD ROY
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 ">
           93320 LES PAVILLONS-SOUS-BOIS 
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 ">
           contact@okayo-import.fr
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 ">
           01 84 21 09 79
           </p>
         </div>
